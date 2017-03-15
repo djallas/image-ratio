@@ -1,4 +1,4 @@
-function photoAdjust(){
+function imgratio(){
   $(".image").css("overflow","hidden");
   $(".image img").css({'margin': '0 auto','display': 'block'});
   $(".image").each(function(){
