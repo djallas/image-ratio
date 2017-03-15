@@ -1,3 +1,13 @@
+  /*
+  * This code are to be used for adjust image within a Container depending on
+  * most common ratio
+  * Originally wrote this snippet for Suffragette/Pathé campaign (https://apps.facebook.com/inspiring-women)
+  * This snippet sets the new width and height based on their natural width and height
+  * to maintain the aspect ratio.
+  * Works best for 1:1(noted like 1by1) aspect ratio but can be modified to accommodate other ratio.
+  * Author: Gilles Kagarama
+  * Company: Inyarwanda Ltd
+ */
 function imgratio(){
   $(".image").css("overflow","hidden");
   $(".image img").css({'margin': '0 auto','display': 'block'});
